@@ -1,1 +1,0 @@
-# horizon-dashboard-cookiecutter
