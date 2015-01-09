@@ -1,0 +1,11 @@
+language: python
+python:
+  - 2.7
+  - 3.3
+  - 3.4
+install:
+  - pip install cookiecutter
+  - pip install invoke
+  - pip install flake8
+script:
+  - invoke test

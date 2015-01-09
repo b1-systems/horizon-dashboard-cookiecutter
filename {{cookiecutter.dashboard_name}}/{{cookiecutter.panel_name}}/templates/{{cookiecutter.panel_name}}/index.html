@@ -1,0 +1,10 @@
+{% raw %}{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "{% endraw %}{{cookiecutter.panel_name|title}}{% raw %}" %}{% endblock %}
+
+{% block page_header %}
+  {% include "horizon/common/_page_header.html" with title=_("{% endraw %}{{cookiecutter.panel_name|title}}{% raw %}") %}
+{% endblock page_header %}
+
+{% block {% endraw %}{{cookiecutter.dashboard_name}}{% raw %}_main %}
+{% endblock %}{% endraw %}
